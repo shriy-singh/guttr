@@ -59,7 +59,8 @@ This documentation combines Comic Survey Lab concept discussions with a creator-
 
 - **Source and concept documentation:** https://github.com/shriy-singh/guttr
 - **Website:** to be added after the Lovable URL is confirmed
-- **LinkedIn:** to be added after the company page is created
+- **Comic Survey Lab on LinkedIn (research initiative):** https://www.linkedin.com/comic-survey-lab
+- **GUTTR's own LinkedIn page:** not yet confirmed
 
 ## Licensing
 
