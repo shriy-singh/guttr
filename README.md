@@ -1,67 +1,49 @@
-# Guttr
+# GUTTR
 
-**Comic surveys, made visually.**
+**Every respondent, inside the story.**
 
-Guttr is an early-stage product concept for designing, publishing, and studying **comic-based surveys**. It explores what happens when survey-making tools support sequential visual storytelling, rather than treating imagery as decoration around conventional questions.
+GUTTR is a working, evolving comic survey studio for creating visual surveys and answering through drawing, counting, voice, selecting, pointing, and writing. It grew from earlier Comic Survey Lab research and workshops.
 
-> **Status: Early working prototype plus ongoing proposal and ideation.** This repository currently hosts concept and research documentation, not the Lovable application source. A project build report shared in October 2026 describes a functioning interface prototype, including Experiment Room, Studio, and Asset Hub, with important limitations and unfinished online features. The Lovable code has not yet been synced or independently verified here.
+- **Try GUTTR:** https://guttr.lovable.app
+- **GUTTR company page on LinkedIn:** https://www.linkedin.com/company/comic-survey-lab/
+- **Project GitHub:** https://github.com/shriy-singh/guttr
 
-## The idea
+**Important:** The LinkedIn company page URL includes the words `comic-survey-lab`, but **it is GUTTR's company page**, not a separate research organization's profile.
 
-Imagine a creation experience that combines:
+## What Guttr offers
 
-- A visual canvas for making comics, inspired by the accessibility of creative editors.
-- A robust survey builder with conditional logic and structured responses.
-- A shared library of reusable comic elements, with provenance and artist rights.
-- Project and asset histories that allow collaboration without losing track of what respondents actually saw.
+- **Studio:** Visual survey editing, templates, remix, seven answer types (count/tally, drawing, voice, scene selection, scale, choice, text), privacy declaration, and export tools.
+- **Experiment Room:** Paper-first capture and panel marking in a guided workflow that moves toward a digital survey.
+- **Asset Hub:** Browse creator-credited assets and manage browser-local kits with version history and restore.
+- **Respondent flow:** Panel-by-panel interaction, with a guest preview option.
 
-**Comicification** means using the storytelling grammar of comics, including panels, pacing, framing, transitions, gutters, and dialogue. It is not simply decorating a questionnaire with pictures.
+The [October 2026 build specification](https://guttr.lovable.app) documents the above features, with important caveats: authenticated publishing, owner response readback, and two-device QR capture were **implemented but not verified end to end** in the documentation pass. Browser-local kits are not a shared online review platform. Weather, Origami, and Music Box response types remain concepts. The report also notes mobile Studio overflow. This README does not claim independent production verification.
 
-## Two proposed creation paths
+## Why “Guttr”?
 
-| Path | For | Possible workflow |
-| --- | --- | --- |
-| **Main Builder** | People composing digitally | Choose assets, arrange panels, add questions and logic, preview, publish |
-| **Experiment Room** | People who prefer drawing first | Draw on paper, upload or capture, optionally clean up, mark panels and interactive regions, preview, publish |
+The gutter is the gap between comic panels where readers construct meaning. GUTTR explores what becomes possible when a respondent helps complete the story while researchers can still work with structured answers.
 
-Both paths would lead to a respondent-facing comic survey. Specific editing capabilities and release scope are still open decisions.
+This approach to **comicification** builds upon Comic Survey Lab workshops and ongoing research. Engagement, accessibility, and response-quality benefits remain research questions, not proven outcomes.
 
-## Who it is for
+## Where to start
 
-The first proposed audience is academic researchers, educators, and collaborators working with visual methods. Later use cases might include participatory design, community engagement, creative feedback, and research communication. These are possibilities, not validated market segments.
+- [Open the live site](https://guttr.lovable.app)
+- [Product vision and research motivation](docs/vision.md)
+- [Proposed workflows](docs/workflows.md)
+- [Research questions](docs/research.md)
+- [Product decisions](docs/open-decisions.md)
+- [Brand direction](docs/brand-direction.md)
+- [Source handoff notes](docs/source-handoff.md)
+- [Asset rights and contribution considerations](docs/asset-rights.md)
 
-## Proposed principles
+## Source-code handoff
 
-1. **Creators remain authors.** Help people learn comic techniques without generating user-specific scenes on their behalf.
-2. **Survey rigor matters.** Conditional logic, access, response handling, and exports must be treated as core capabilities.
-3. **Drawing should remain welcome.** Paper-first workflows are a first-class path, not a lesser alternative.
-4. **Artists retain credit and rights.** Assets need clear licensing and attributable provenance.
-5. **Published research should be reproducible.** Version history should explain which assets and questions appeared in a given survey.
-6. **Research claims require evidence.** Better engagement or comprehension are hypotheses to investigate.
+The project creator has supplied a source-code ZIP containing a TanStack Start / React / Vite application with `package.json` and `bun.lock`. For safety, the source has **not yet been copied wholesale into this public repository**: the archive includes an `.env` configuration and third-party or workshop visual assets requiring rights review. See [source handoff](docs/source-handoff.md).
 
-## Explore the proposal
+The ZIP's declared scripts include `bun dev` and, when Bun is unavailable, `npm run dev` (the actual `package.json` script is named `dev`). This documentation does not claim that the environment has been successfully installed or launched.
 
-- [Product vision](docs/vision.md)
-- [Proposed workflows and features](docs/workflows.md)
-- [Research and evaluation questions](docs/research.md)
-- [Open product decisions](docs/open-decisions.md)
-- [Asset rights and attribution approach](docs/asset-rights.md)
-- [Initial roadmap](ROADMAP.md)
-- [Contribution guidance](CONTRIBUTING.md)
+## Rights and licensing
 
-## Current state and next steps
+No software open-source license has been selected. Original workshop artwork, lab-supplied imagery, and third-party asset libraries must be handled under their respective permissions; open access to this repository does not license those works for redistribution.
 
-This documentation combines Comic Survey Lab concept discussions with a creator-supplied October 2026 Lovable build report. The report describes an existing site prototype, browser-local respondent answers, link-encoded survey sharing, a Studio editor, an Experiment Room flow, and an Asset Hub. It also lists server-side response collection, hosted survey pages, and online kit review as unfinished. These claims are sourced from the build report, not verified source-code inspection. We will inspect the Lovable project before producing a definitive feature inventory or synchronizing application code.
-
-- [Draft brand direction and supplied asset roles](docs/brand-direction.md)
-
-## Links
-
-- **Source and concept documentation:** https://github.com/shriy-singh/guttr
-- **Website:** to be added after the Lovable URL is confirmed
-- **Comic Survey Lab on LinkedIn (research initiative):** https://www.linkedin.com/comic-survey-lab
-- **GUTTR's own LinkedIn page:** not yet confirmed
-
-## Licensing
-
-**No open-source license has been selected yet.** The absence of a software license means reuse rights are not automatically granted. Any future comic artwork or contributed media may have a **separate license** from the application code. See [asset rights](docs/asset-rights.md).
+For questions or collaboration, use the GUTTR website or company page.
