@@ -36,6 +36,28 @@ This approach to **comicification** builds upon Comic Survey Lab workshops and o
 - [Source handoff notes](docs/source-handoff.md)
 - [Asset rights and contribution considerations](docs/asset-rights.md)
 
+## Local installation and development
+
+Once the application source code is available in your local checkout, install dependencies and start the development server:
+
+**Recommended (Bun):**
+
+```bash
+bun install
+bun dev
+```
+
+**Alternative (npm):**
+
+```bash
+npm install
+npm run dev
+```
+
+Run these commands from the project directory containing `package.json`. Bun is the preferred option because the supplied application source includes a `bun.lock` file.
+
+> **Source availability:** This repository currently contains project documentation. The application code is awaiting a public-source and asset-rights review, so cloning this repository alone will not yet provide a runnable app.
+
 ## Source-code handoff
 
 The project creator has supplied a source-code ZIP containing a TanStack Start / React / Vite application with `package.json` and `bun.lock`. For safety, the source has **not yet been copied wholesale into this public repository**: the archive includes an `.env` configuration and third-party or workshop visual assets requiring rights review. See [source handoff](docs/source-handoff.md).
