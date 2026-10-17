@@ -4,7 +4,7 @@
 
 Guttr is an early-stage product concept for designing, publishing, and studying **comic-based surveys**. It explores what happens when survey-making tools support sequential visual storytelling, rather than treating imagery as decoration around conventional questions.
 
-> **Status: Proposal and ideation.** This public repository currently documents the concept, research questions, and proposed workflows. It does **not** yet claim to contain the production application or a working survey builder. A separate Lovable implementation may be linked after review.
+> **Status: Early working prototype plus ongoing proposal and ideation.** This repository currently hosts concept and research documentation, not the Lovable application source. A project build report shared in October 2026 describes a functioning interface prototype, including Experiment Room, Studio, and Asset Hub, with important limitations and unfinished online features. The Lovable code has not yet been synced or independently verified here.
 
 ## The idea
 
@@ -51,7 +51,9 @@ The first proposed audience is academic researchers, educators, and collaborator
 
 ## Current state and next steps
 
-This documentation is based on the ongoing Comic Survey Lab concept discussions. It does not imply that the features described are implemented. The existing Lovable website and codebase need to be inspected before creating a definitive implementation inventory or synchronizing application code.
+This documentation combines Comic Survey Lab concept discussions with a creator-supplied October 2026 Lovable build report. The report describes an existing site prototype, browser-local respondent answers, link-encoded survey sharing, a Studio editor, an Experiment Room flow, and an Asset Hub. It also lists server-side response collection, hosted survey pages, and online kit review as unfinished. These claims are sourced from the build report, not verified source-code inspection. We will inspect the Lovable project before producing a definitive feature inventory or synchronizing application code.
+
+- [Draft brand direction and supplied asset roles](docs/brand-direction.md)
 
 ## Links
 
