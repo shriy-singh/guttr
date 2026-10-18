@@ -58,6 +58,17 @@ Run these commands from the project directory containing `package.json`. Bun is 
 
 > **Source availability:** This repository currently contains project documentation. The application code is awaiting a public-source and asset-rights review, so cloning this repository alone will not yet provide a runnable app.
 
+## Contribute to the GUTTR ecosystem
+
+You can help GUTTR without needing access to the proprietary application code:
+
+- [Propose a reusable comic kit](docs/contribute-a-kit.md)
+- [Contribute research ideas, accessibility feedback or documentation](CONTRIBUTING.md)
+- [Open a GitHub Issue](https://github.com/shriy-singh/guttr/issues/new/choose)
+- [Explore the visual tour](docs/visual-tour.md)
+
+Artist ownership, licenses, provenance, and contribution acceptance are handled individually. Public proposals do not transfer copyright.
+
 ## Source-code handoff
 
 The project creator has supplied a source-code ZIP containing a TanStack Start / React / Vite application with `package.json` and `bun.lock`. For safety, the source has **not yet been copied wholesale into this public repository**: the archive includes an `.env` configuration and third-party or workshop visual assets requiring rights review. See [source handoff](docs/source-handoff.md).
