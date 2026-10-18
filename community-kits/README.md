@@ -1,6 +1,6 @@
 # Community comic kits
 
-GUTTR's community library is intended to make workshop-created comic surveys available for learning and **noncommercial remixing**, subject to the relevant signed agreements and a per-file publication review.
+GUTTR's community library is intended to make workshop-created comic surveys available for learning and **noncommercial remixing**, subject to explicit additional permission for public downloading, remixing, and redistribution. The original workshop consent forms cover research and academic uses, not open public remix licensing.
 
 ## Neutral project identifiers
 
@@ -11,7 +11,7 @@ GUTTR's community library is intended to make workshop-created comic surveys ava
 
 ## Intended reuse
 
-The project owner has confirmed that workshop participants signed agreements. The proposed public reuse policy is noncommercial remixing, based on CC BY-NC-SA 4.0 where the actual agreement permits it. We will confirm the wording of the signed forms before asserting that any particular file carries this license.
+The artist and student consent forms have now been reviewed. They authorize limited noncommercial academic/research uses, **not** general public downloading and remixing. CC BY-NC-SA 4.0 is a future option only after relevant rights holders explicitly opt in. See the [reviewed policy](../docs/remix-policy.md).
 
 ## Publication status
 
