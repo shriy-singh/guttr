@@ -1,40 +1,32 @@
 # Workshop comic remix policy
 
-**Status: Proposed licensing policy pending confirmation from each rights holder.** This document is not a license grant for unpublished or uncleared artwork.
+**Status:** The project owner reports that relevant workshop creators signed participation agreements. The agreement documents have not yet been inspected, so this page describes the **intended** distribution policy, not a confirmed license grant for each file.
 
-## Intended sharing model
+## Intended public reuse
 
-The project owner has requested that approved workshop comics be available to share and remix for **noncommercial** purposes, while GUTTR application code remains private. The proposed standard license for rights-cleared workshop artwork is **Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)**: https://creativecommons.org/licenses/by-nc-sa/4.0/
+For eligible approved workshop materials, GUTTR intends to allow sharing and remixing **for noncommercial purposes only**. The candidate standard license is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), subject to compatibility with the rights already granted by the creators.
 
-For artwork that the relevant creator(s) agree to release under these terms:
+- Noncommercial sharing and adaptation are intended to be allowed.
+- Commercial exploitation by other software providers is not authorized by the proposed license.
+- Altered materials must preserve applicable license terms and legally required attribution.
+- No intellectual property transfer is inferred from signed participation alone.
 
-- **Share:** copy and redistribute the approved work for noncommercial purposes.
-- **Remix:** adapt, remix, and transform the approved work for noncommercial purposes.
-- **Attribution:** credit the original creators and link the license; mark changes.
-- **ShareAlike:** release redistributed adaptations under the same or a compatible license.
-- **NonCommercial:** commercial uses are outside the standard license and need separate permission.
+Creative Commons noncommercial licenses are **not** OSI open-source software licenses. They apply to designated content, not to GUTTR's proprietary application code.
 
-These rights are granted by the actual rights holders, not by the repository maintainer on their behalf. Licenses are non-exclusive and do not transfer copyright ownership.
+## Names, identity and credit
 
-## Software and subscriptions
+Public files and catalog entries will use anonymous project IDs such as `P01`, `P02` and so on. The repository will not publish a contributor-name register.
 
-This proposed content license applies only to approved artwork, **not to GUTTR software, brand marks, participant responses, or otherwise restricted images**. The application implementation remains proprietary and is not provided through this repository. The creator mentioned exploring a low-cost subscription after a month; the precise pricing, timing, and relationship to free asset reuse remain unverified in the retrieved chat materials. Do not assert a finalized subscription model.
+GUTTR plans to highlight artists separately on its platform. **Anonymizing filenames does not remove legal attribution requirements.** Before selecting CC BY-NC-SA, confirm how the relevant artists requested to be credited and whether attribution through the platform can satisfy the selected license. Artwork pages must also be reviewed for handwritten names, signatures, and identifying participant content.
 
-The NC restriction does not prohibit every conceivable appearance of a licensed work within software. Commerciality depends on the use and circumstances. Contact the rights holders for uses that exceed the license.
+## Before public release
 
-## Release checklist
+1. Review the signed agreement wording for permission to publicly host, redistribute, adapt, and apply a standard Creative Commons license.
+2. Confirm which works and rights holders those agreements cover.
+3. Check the original PDFs for embedded personal information, signatures, identifiable respondent answers, and third-party materials.
+4. Assign anonymous `Pxx` filenames, while keeping any rights-management mapping private.
+5. Publish approved documents with the correct file-specific license and rights notes.
 
-Before publishing an artwork file:
+A paid GUTTR subscription, if later offered, requires its own review of permissions. An NC license on artwork does not automatically establish the operating platform's commercial license or permission.
 
-1. Record all authors and confirm which people actually hold rights, including researchers versus artists where relevant.
-2. Obtain explicit agreement from **each necessary rights holder** to CC BY-NC-SA 4.0 distribution and adaptation.
-3. Check drawings and pages for personal names, signatures, participant responses, private details, and any third-party content.
-4. Publish only cleared material; retain accurate attribution and the license link.
-5. Preserve an original master copy and record transformations or redactions.
-6. Use neutral filenames such as `P01.pdf`; put creator names in the credit register, not in filenames.
-
-Until clearance, files must stay out of public download folders.
-
-## Terminology
-
-CC BY-NC-SA is a **Creative Commons noncommercial content license**, not an OSI-compliant open-source software license. Describe the kit collection as *noncommercial open-remix artwork*, not unrestricted open source.
+Until these steps are completed, archive files should not be publicly uploaded as CC BY-NC-SA licensed works.
