@@ -35,6 +35,9 @@ This approach to **comicification** builds upon Comic Survey Lab workshops and o
 - [Brand direction](docs/brand-direction.md)
 - [Source handoff notes](docs/source-handoff.md)
 - [Asset rights and contribution considerations](docs/asset-rights.md)
+- [Proposed noncommercial remix policy](docs/remix-policy.md)
+- [Community kit catalog and neutral naming](community-kits/README.md)
+- [Contributor credit register](docs/community-credits.md)
 
 ## Local installation and development
 
